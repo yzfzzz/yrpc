@@ -1,4 +1,4 @@
-set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/mprpc/lib)
-include_directories(${PROJECT_SOURCE_DIR}/mprpc/src/include)
-link_directories(${PROJECT_SOURCE_DIR}/mprpc/lib)
+set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/yrpc/lib)
+include_directories(${PROJECT_SOURCE_DIR}/yrpc/src/include)
+link_directories(${PROJECT_SOURCE_DIR}/yrpc/lib)
 add_subdirectory(src)
